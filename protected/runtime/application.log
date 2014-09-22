@@ -1,0 +1,167 @@
+2014/09/20 16:15:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sakila/index.php?r=gii
+---
+2014/09/20 17:02:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sakila/index.php?r=gii
+---
+2014/09/20 17:02:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sakila/index.php?r=gii
+---
+2014/09/20 19:31:28 [warning] [application] Failed to set unsafe attribute "address" of "Customer".
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\controllers\CustomerController.php (139)
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php (13)
+2014/09/20 19:31:42 [warning] [application] Failed to set unsafe attribute "address" of "Customer".
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\controllers\CustomerController.php (139)
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php (13)
+2014/09/20 19:32:06 [warning] [application] Failed to set unsafe attribute "address" of "Customer".
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\controllers\CustomerController.php (139)
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php (13)
+2014/09/20 19:34:48 [warning] [application] Failed to set unsafe attribute "address" of "Customer".
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\controllers\CustomerController.php (139)
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php (13)
+2014/09/20 19:34:54 [warning] [application] Failed to set unsafe attribute "address" of "Customer".
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\controllers\CustomerController.php (139)
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php (13)
+2014/09/20 19:50:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "controller".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('controller')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sakila/index.php?r=controller
+---
+2014/09/20 19:50:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "CustomerController".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('CustomerControl...')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sakila/index.php?r=CustomerController
+---
+2014/09/20 19:50:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "CustomerController/index".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('CustomerControl...')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sakila/index.php?r=CustomerController/index
+---
+2014/09/20 19:50:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "CustomerController".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('CustomerControl...')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sakila/index.php?r=CustomerController
+---
+2014/09/20 19:50:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "controller".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('controller')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/sakila/index.php?r=controller
+---
+2014/09/20 20:00:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php:483
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(270): CController->missingAction('list')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(282): CController->run('list')
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('customer/list')
+#3 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/sakila/index.php?r=customer/list
+---
+2014/09/20 22:47:32 [error] [php] Undefined variable: script (C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\components\FlagColumn.php:13)
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CBaseController.php(147): CGridView->init()
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CBaseController.php(172): CustomerController->createWidget()
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\views\customer\admin.php(73): CustomerController->widget()
+#3 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CBaseController.php(126): require()
+#4 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CBaseController.php(95): CustomerController->renderInternal()
+#5 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(869): CustomerController->renderFile()
+#6 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(782): CustomerController->renderPartial()
+#7 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\controllers\CustomerController.php(156): CustomerController->render()
+#8 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\actions\CInlineAction.php(49): CustomerController->actionAdmin()
+#9 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(308): CInlineAction->runWithParams()
+#10 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilterChain.php(133): CustomerController->runAction()
+#11 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#13 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CInlineFilter.php(58): CustomerController->filterAccessControl()
+#14 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#15 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(291): CFilterChain->run()
+#16 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(265): CustomerController->runActionWithFilters()
+#17 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(282): CustomerController->run()
+#18 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#19 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#20 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CWebApplication->run()
+REQUEST_URI=/sakila/index.php?r=customer/admin
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\components\FlagColumn.php (13)
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\views\customer\admin.php (73)
+in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\protected\controllers\CustomerController.php (156)
+2014/09/20 22:48:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(282): CController->run('flag')
+#8 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('customer/flag')
+#9 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/sakila/index.php?r=customer/flag&pk=1&name=active&value=0
+HTTP_REFERER=http://localhost/sakila/index.php?r=customer/admin
+---
+2014/09/20 22:48:17 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(282): CController->run('flag')
+#8 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('customer/flag')
+#9 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/sakila/index.php?r=customer/flag&pk=3&name=active&value=0
+HTTP_REFERER=http://localhost/sakila/index.php?r=customer/admin
+---
+2014/09/20 22:49:59 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(291): CFilterChain->run()
+#6 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(282): CController->run('flag')
+#8 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\web\CWebApplication.php(141): CWebApplication->runController('customer/flag')
+#9 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\yiiPath\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 C:\Bitnami\wampstack-5.4.32-0\apache2\htdocs\sakila\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/sakila/index.php?r=customer/flag&pk=16&name=active&value=1
+HTTP_REFERER=http://localhost/sakila/index.php?r=customer/admin&sort=active
+---

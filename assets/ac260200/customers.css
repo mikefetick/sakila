@@ -1,0 +1,13 @@
+ol.customers {
+    list-style: none;
+    font-stretch: ultra-expanded;
+    margin: 1em 0;
+}
+ol.customers>li {
+    margin: 1em;
+    padding: 1em;
+    font-stretch: ultra-expanded;
+    background: #fcfcfc;
+    border: 1px solid #9aafe5;
+}
+
